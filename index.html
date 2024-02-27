@@ -3,9 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Use forward slashes (/) instead of backward slashes (\) in the path -->
+    <link rel="icon" href="./assets/images/exicom-icon.ico" type="image/x-icon">
     <title>Exicom Dashboard</title>
+    <style>
+        body{
+            background-color:whitesmoke;
+        }
+        .container {
+            width: 100%; /* Set the container width */
+            height: 100vh; /* Set the container height to the full viewport height */
+            display: flex; /* Use flexbox layout */
+            justify-content: center; /* Center horizontally */
+            align-items: center; /* Center vertically */
+        }
+        .my-block{
+            align-items: center;
+            width: 500px;
+            height: 200px;
+            background: linear-gradient(to bottom right,rgba(1, 0, 0, 255), rgba(2,10,25,255), rgba(3,20,50,255), rgba(4,30,75,255), rgba(5,40,100,255));
+            border-radius: 50px;
+            padding: 25px;
+            box-shadow: 15px 15px 10px rgba(0,0,0,0.7);
+        }
+    </style>
 </head>
 <body>
-    <h1>Hello User!</h1>
+    <div class="container">
+        <div class="my-block">
+
+        </div>
+    </div>
 </body>
 </html>
